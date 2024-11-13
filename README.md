@@ -247,3 +247,27 @@ Reinicieu l'apache2:
 ```bash
 sudo service apache2 restart
 ```
+# Configuracio d'ownCLoud
+## Creació d'usuaris
+<p>Per crear usuaris anem a la part dreta on surt el nostre usuari i cliquem.
+<p>Per crear el usuari tenim que posar el nom de l'usuari, i un e-mail, que pot ser inventat.
+<p>Aixo es fa en l'espai de dalt del teu usuari que posa el que he dit abans.
+<p>Ara creem 3 o 4 usuaris.
+## Assignem rols i permisos
+<p> Ara assignarem rols al nostres usuaris creats.
+<p> Per crear un rol li tenim que clicar on posa "Add group", i tindras ja dos rols creats predeterminats, "Everyone" i "Admin".
+  <p>I creem dos rols nous, els que vulguis.
+<p>Per assignar els rols en un usuari li donem a "Group" en el mateix usuari i l'assignem el rol que acabem de crear.
+<p>Ara assignem permisos al nostres usuaris.
+<p>Li donem a "users" que posa d'alt del tot, i aqui donem a "Archivos"
+<p>Aqui seleccionem la carpeta a que volem donar permisos als nostres usuaris.
+<p> I li donem a "sharing", posem el nom dels rols que volem donar permisos a aquesta carpeta, o el nom de l'usuari al que volem donar permisos en aquesta carpeta.
+<p>I si li donem al engranatge al costat del usuari o rol, podem posar que pot fer aquest grup o persona. 
+<p>I amb aixo ja ahuriem d'haver acabat de configurar rols i permisos als rols.
+# Administració d'arxius.
+<p>Per crear arxius, carpetes o pujar fitxers, em de donarle al "+" que posa dalt de les carpetes predeterminades.
+<p>I creem una carpeta amb qualsevol nom.
+<p> Ara creem un arxiu dins de la carpeta 
+<p>I aquest arxiu serveix com un document, pots escriure el que vulguis dins.
+<p>També pots pujar un arxiu desde la teva propia maquina.
+<p>I dins de l'arxiu com en les carpetes, també pots donar permisos a usuaris d'editar els arxius o pujar mes arxius.
